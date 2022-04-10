@@ -129,7 +129,5 @@ dmypy.json
 .pyre/
 
 # idea
-/shelf/
-/workspace.xml
 .idea/
 *.iml
