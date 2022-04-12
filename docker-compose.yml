@@ -22,9 +22,3 @@ services:
       - POSTGRES_PASSWORD=postgres
     depends_on:
       - db
-  redirect_app:
-    build: .
-    image: app
-    command: python manage.py startapp redirect_application
-    depends_on:
-      - db
