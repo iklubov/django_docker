@@ -34,7 +34,6 @@ def get_url(redicrectType, *args):
     except TooManyRedirects as error:
         return error
 
-    print(request)
     if request is not None and request.status_code == 200 and request.history:
         return request.url, request.status_code
 
