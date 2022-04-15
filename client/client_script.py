@@ -4,7 +4,7 @@ from urllib.parse import urljoin
 import requests
 from requests import ConnectionError, TooManyRedirects
 
-ROOT_PATH = 'http://localhost:8000/redirect_urls/'
+ROOT_PATH = 'http://194.58.118.37:8000/redirect_urls/'
 ARGS_DELIMITER = '_'
 
 class Redirects(Enum):
